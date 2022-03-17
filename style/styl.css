@@ -1,0 +1,36 @@
+*{
+	box-sizing:border-box;
+	margin:0px;
+}
+header{
+	height:10vh;
+	background-color:#66ccff;
+}
+header h1{
+	display:inline-box;
+	text-align:center;
+	position:relative;
+	top:50%;
+	transform:translateY(-50%);
+}
+
+main{
+	height:80vh;
+	background-color:#f4fc9c;
+}
+#game{
+	height:80%;
+	background-color:white;
+	border:1px solid black;
+	box-sizing:content-box;
+	position:relative;
+	top:10%;
+	left:10%;
+	line-height:0px;
+}
+
+
+footer{
+	height:10vh;
+	background-color:#022560;
+}
